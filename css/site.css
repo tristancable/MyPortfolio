@@ -1,0 +1,193 @@
+@font-face {
+    font-family: "osaka";
+    src: url("../osaka-re.ttf");
+}
+
+@font-face {
+    font-family: "komigo";
+    src: url("../Komigo3D-Regular.ttf");
+}
+
+@font-face {
+    font-family: "crunch-chips";
+    src: url("../Crunch\ Chips.otf");
+}
+
+@font-face {
+    font-family: "typewriter";
+    src: url("../JMH\ Typewriter.ttf");
+}
+
+@font-face {
+    font-family: "american-captain";
+    src: url("../American\ Captain.ttf");
+}
+
+@font-face {
+    font-family: "redhands";
+    src: url("../KGRedHands.ttf");
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 940px;
+    margin: 0;
+    font-family: "typewriter";
+}
+
+main {
+    background-color: #D0B8AC;
+    flex: 1;
+    border-bottom: black solid 2px;
+    border-top: black solid 2px;
+}
+
+footer {
+    background-color: #EFE5DC;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+.nav-bar {
+    text-align: left;
+    border-bottom: black solid 2px;
+    border-top: black solid 2px;
+}
+
+nav ul {
+    background-color: #D0B8AC;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 5px;
+}
+
+#logo {
+    color: #34251D;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: "osaka";
+    padding-right: 5px;
+    margin-left: 0px;
+    margin-bottom: 6px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+ul li a {
+    color: #5B4133;
+    text-decoration: none;
+    padding: 20px 25px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+ul li a:hover {
+    background-color: rgb(243, 216, 199, .4);
+    color: #665750;
+}
+
+.nav-bar a:active {
+    background-color: rgb(243, 216, 199, .3);
+}
+
+h1 {
+    text-align: center;
+    font-family: "american-captain";
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin: 5px;
+}
+
+h2 {
+    font-family: "american-captain";
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+#text {
+    margin: 5px;
+}
+
+#quote-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quote-box {
+    padding: 10px;
+    display: flex;
+    max-width: 100%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.quote-box h2 {
+    margin-top: 0;
+}
+
+.quoteImg img {
+    margin-right: 10px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#div-slideshow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#slideshow {
+    border: black solid 3px;
+    border-radius: 3px;
+    height: 550px;
+}
+
+#skills-h2 {
+    margin-top: 0px;
+    font-size: 70px;
+}
+
+#skills {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "typewriter";
+    font-size: 40px;
+}
+
+#skills1, #skills2, #skills3 {
+    flex-basis: 33.33%;
+    text-align: center;
+    list-style-type: none;
+}
+
+#projects {
+    display: flex;
+    flex-direction: row;
+}
+
+#project1, #project2, #project3 {
+    flex-basis: 33.33%;
+    text-align: center;
+    border: #34251D solid 2px;
+    padding-bottom: 50px;
+    margin: 2px;
+}
+
+#project1 img {
+    width: 500px;
+}
+
+#project2 img {
+    height: 500px;
+}
+
+#project3 img {
+    width: 500px;
+}
