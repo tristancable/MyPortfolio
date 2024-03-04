@@ -4,8 +4,8 @@ let num = 1;
 let url = `https://thesimpsonsquoteapi.glitch.me/quotes?count=${num}`;
 
 const quoteContainer = document.getElementById("quote-container");
-const getUsersButton = document.getElementById("get-users-button");
 
+if(quoteContainer){
 fetch(url)
     .then(resp => resp.json())
     .then(data => {
@@ -25,6 +25,7 @@ fetch(url)
     .catch(error => {
         console.error('Error fetching quotes:', error);
     });
+}
 
 function getUserHtml(quote) {
     return `<div class="quote-box">
